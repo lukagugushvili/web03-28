@@ -9,8 +9,8 @@ btnBox.appendChild(text);
 text.classList.add('text');
 
 btnAdd.addEventListener('click', () => {
-    localStorage.setItem('value', inp.value)
-    text.textContent = (inp.value)
+    localStorage.setItem('value', inp.value);
+    text.textContent = (inp.value);
 });
 
 btnRemove.addEventListener('click', () => {

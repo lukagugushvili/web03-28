@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 50px;
+    color: aqua;
+}
+
+input {
+    padding-left: 10px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.text {
+    padding-left: 100px;
+    padding-top: 20px;
+}
